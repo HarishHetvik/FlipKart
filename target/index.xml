@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="24.599" tests="4" skipped="0" failures="0" errors="0">
+<testcase classname="Open Flipkart Website Module" name="Verifying user enter flipkart website using Chrome Browser" time="3.499">
+<system-out><![CDATA[
+Given User is on flipkart page using "Chrome" browser.......................passed
+Then User should verify success message "Online Shopping Site for Mobiles"..passed
+]]></system-out>
+</testcase>
+<testcase classname="Open Flipkart Website Module" name="Verifying user enter flipkart website using Edge Browser" time="4.504">
+<system-out><![CDATA[
+Given User is on flipkart page using "Edge" browser.........................passed
+Then User should verify success message "Online Shopping Site for Mobiles"..passed
+]]></system-out>
+</testcase>
+<testcase classname="Search and Add to Card Module" name="Verifying  search and add to card" time="6.514">
+<system-out><![CDATA[
+Given User is on flipkart page using "Chrome" browser.......................passed
+Then User should verify success message "Online Shopping Site for Mobiles"..passed
+When User search "laptop" in search box and press enter.....................passed
+When User click on one search result........................................passed
+And User Add selected laptop to cart........................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Proceed to Checkout Module" name="Verifying proceed to Checkout" time="9.932">
+<system-out><![CDATA[
+Given User is on flipkart page using "Chrome" browser.......................passed
+Then User should verify success message "Online Shopping Site for Mobiles"..passed
+When User search "laptop" in search box and press enter.....................passed
+When User click on one search result........................................passed
+And User Add selected laptop to cart........................................passed
+When User navigate to Add to cart...........................................passed
+Then User should verify correct item in the cart............................passed
+When User click on the Proceed to Checkout button...........................passed
+]]></system-out>
+</testcase>
+</testsuite>
